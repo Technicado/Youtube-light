@@ -23,9 +23,7 @@ const App = () => {
     setSelectedVideos(response.data.items[0]);
   };
 
-  const onVideoSelect = (video) => {
-    setSelectedVideos({ video });
-  };
+  
 
   return (
     <div className="ui container">
